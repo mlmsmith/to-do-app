@@ -40,7 +40,11 @@ function deleteCheck(event) {
   // Delete to do
   if (item.classList[0] === 'delete-btn') {
     const todo = item.parentElement;
-    todo.remove();
+    // Animation
+    todo.classList.add('fall');
+    todo.addEventListener('transitionend', function(){
+      todo.remove();
+    });
   }
   // Check mark
   if (item.classList[0] === 'complete-btn') {
