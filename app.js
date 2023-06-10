@@ -10,6 +10,8 @@ toDoList.addEventListener("click", deleteCheck);
 filterOption.addEventListener("click", filterToDo);
 
 //Functions
+
+// Generate new div when a task is added
 function addToDo(event) {
   // Prevent the form from submitting
   event.preventDefault();
