@@ -7,7 +7,7 @@
 
 body {
     background-image: linear-gradient(120deg, #f6d365, #fda085);
-    color: rgba(255, 255, 255, 0.864);
+    color: rgba(249, 226, 226, 0.864);
     font-family: "Poppins", sans-serif;
     min-height: 200vh;
 }
@@ -29,7 +29,7 @@ form button {
     padding: 0.5rem;
     font-size: 2rem;
     border: none;
-    background: white;
+    background: rgb(239, 230, 230);
 }
 
 form button {
